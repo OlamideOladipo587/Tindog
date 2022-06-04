@@ -170,7 +170,7 @@ p{
 }
 
 
-@media (max-width: 1028px) {
+@media only screen and (min-device-width : 360px) and (max-device-width : 640px){
   .dog-img{
     position: static;
     transform: rotate(0);
